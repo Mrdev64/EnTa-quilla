@@ -1,0 +1,155 @@
+:root {
+  --yellow: #FFC700;
+  --green: #349A36;
+  --orange: #EA6A3F;
+  --black: #333;
+  --white: #FFFFFF;
+}
+
+.nav {
+  display: flex;
+  background-color: var(--black);
+  width: 1280px;
+  height: 101.242px;
+  flex-shrink: 0;
+}
+.nav__brand{
+color: var(--Primary-yellow, #FFC700);
+font-family: "SS Nickson One";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px;
+text-decoration: none;
+
+
+}
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+}
+.nav__services {
+  display: flex;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  right: 20px;
+}
+.nav__item {
+  margin-right: 20px;
+  right: 0;
+  
+}
+
+.nav__link1 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav__link2 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav__link3 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #ddd;
+}
+
+.nav__brand {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+}
+
+.nav__right-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav__info {
+  font-size: 1em;
+  color: white;
+}
+
+.nav__dates {
+  font-size: 1em;
+  color: white;
+}
+.tercera__edition {
+  left: 30px;
+  rotate: -6.702deg;
+  position: absolute;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero__title {
+ 
+  width: 477.659px;
+  height: 234.406px;
+  transform: rotate(-6.702deg);
+  flex-shrink: 0;
+  position: absolute;
+  left: 40px;
+  top: 220px;
+}
+
+.bg__hero{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  }
+.description__event {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-family: "SS Nickson One";
+  font-size:  80px;
+  color: var(--white);
+
+}
+.counter {
+  color: #FFF;
+
+font-family: "SS Nickson One";
+font-size: 146.91px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.silla {
+  position: absolute;
+  width: 100px;
+  left: 40px;
+  top: 400px;
+
+}
+.nav__subscribe-btn {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav__subscribe-btn:hover {
+  background-color: #777;
+}

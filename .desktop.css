@@ -1,0 +1,1176 @@
+.desktop {
+    background-color: #262626;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+    background-color: #262626;
+    overflow: hidden;
+    width: 1280px;
+    height: 3867px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 1908px;
+    height: 3991px;
+    top: -124px;
+    left: -233px;
+  }
+  
+  .desktop .bg {
+    position: absolute;
+    width: 1908px;
+    height: 1273px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .desktop .group {
+    width: 1911px;
+    height: 1273px;
+  }
+  
+  .desktop .capa {
+    height: 1273px;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    width: 1280px;
+    height: 1149px;
+    top: 124px;
+    left: 233px;
+    background-image: url(./img/rectangle.png);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 1280px;
+    height: 977px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+  }
+  
+  .desktop .div {
+    position: absolute;
+    width: 1280px;
+    height: 1350px;
+    top: 807px;
+    left: 233px;
+    background-color: #262626;
+  }
+  
+  .desktop .frame {
+    position: absolute;
+    width: 1281px;
+    height: 3867px;
+    top: 124px;
+    left: 233px;
+    overflow: hidden;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 1214px;
+    height: 441px;
+    top: 1808px;
+    left: 34px;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    width: 1044px;
+    top: 376px;
+    left: 84px;
+    font-family: var(--titles-and-sub-titulazo2-font-family);
+    font-weight: var(--titles-and-sub-titulazo2-font-weight);
+    color: #f2f2f2;
+    font-size: var(--titles-and-sub-titulazo2-font-size);
+    letter-spacing: var(--titles-and-sub-titulazo2-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo2-line-height);
+    font-style: var(--titles-and-sub-titulazo2-font-style);
+  }
+  
+  .desktop .capa-2 {
+    top: 152px;
+    left: 58px;
+    position: absolute;
+    width: 1097px;
+    height: 252px;
+  }
+  
+  .desktop .proyecci-n-de-la-pel {
+    position: absolute;
+    width: 1214px;
+    top: 0;
+    left: 0;
+    font-family: var(--body-body-pop1-font-family);
+    font-weight: var(--body-body-pop1-font-weight);
+    color: #ffffff;
+    font-size: var(--body-body-pop1-font-size);
+    text-align: justify;
+    letter-spacing: var(--body-body-pop1-letter-spacing);
+    line-height: var(--body-body-pop1-line-height);
+    font-style: var(--body-body-pop1-font-style);
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    width: 1044px;
+    top: 2316px;
+    left: 118px;
+    font-family: var(--titles-and-sub-titulazo1-font-family);
+    font-weight: var(--titles-and-sub-titulazo1-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo1-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-and-sub-titulazo1-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo1-line-height);
+    font-style: var(--titles-and-sub-titulazo1-font-style);
+  }
+  
+  .desktop .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    align-items: flex-start;
+    position: absolute;
+    top: 197px;
+    left: 779px;
+  }
+  
+  .desktop .element {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 148px;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "SS Nickson One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 146.9px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .component {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 188px;
+  }
+  
+  .desktop .GPS-icon {
+    position: absolute;
+    width: 41px;
+    height: 58px;
+    top: 128px;
+    left: 3px;
+  }
+  
+  .desktop .silla-icon {
+    position: absolute;
+    width: 48px;
+    height: 71px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 123px;
+    left: 67px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 166px;
+    left: 68px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .entrada-gratis-cupos {
+    position: absolute;
+    top: -1px;
+    left: 67px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .frame-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 143px;
+    position: absolute;
+    top: 3268px;
+    left: 210px;
+  }
+  
+  .desktop .group-2 {
+    position: relative;
+    width: 406px;
+    height: 114px;
+  }
+  
+  .desktop .putrefacci-n {
+    position: absolute;
+    width: 357px;
+    top: 0;
+    left: 47px;
+    font-family: var(--body-bodydesk1-font-family);
+    font-weight: var(--body-bodydesk1-font-weight);
+    color: #ffffff;
+    font-size: var(--body-bodydesk1-font-size);
+    letter-spacing: var(--body-bodydesk1-letter-spacing);
+    line-height: var(--body-bodydesk1-line-height);
+    font-style: var(--body-bodydesk1-font-style);
+  }
+  
+  .desktop .capa-3 {
+    top: 7px;
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    left: 0;
+  }
+  
+  .desktop .capa-4 {
+    top: 43px;
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    left: 0;
+  }
+  
+  .desktop .capa-5 {
+    top: 78px;
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    left: 0;
+  }
+  
+  .desktop .group-3 {
+    position: relative;
+    width: 455px;
+    height: 108px;
+    margin-right: -2.00px;
+  }
+  
+  .desktop .zoe-y-blackie {
+    position: absolute;
+    width: 418px;
+    top: 0;
+    left: 35px;
+    font-family: var(--body-bodydesk1-font-family);
+    font-weight: var(--body-bodydesk1-font-weight);
+    color: #ffffff;
+    font-size: var(--body-bodydesk1-font-size);
+    letter-spacing: var(--body-bodydesk1-letter-spacing);
+    line-height: var(--body-bodydesk1-line-height);
+    font-style: var(--body-bodydesk1-font-style);
+  }
+  
+  .desktop .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: 548px;
+    align-items: center;
+    gap: 38px;
+    position: absolute;
+    top: 2897px;
+    left: 364px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--titles-and-sub-titulazo2-font-family);
+    font-weight: var(--titles-and-sub-titulazo2-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-and-sub-titulazo2-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo2-line-height);
+    font-style: var(--titles-and-sub-titulazo2-font-style);
+  }
+  
+  .desktop .proyecci-n-de {
+    position: relative;
+    width: 634px;
+    margin-left: -43.00px;
+    margin-right: -43.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .date {
+    position: absolute;
+    width: 250px;
+    height: 141px;
+    top: 553px;
+    left: 1009px;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--titles-and-sub-titulazo2-2-font-family);
+    font-weight: var(--titles-and-sub-titulazo2-2-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo2-2-font-size);
+    letter-spacing: var(--titles-and-sub-titulazo2-2-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo2-2-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulazo2-2-font-style);
+  }
+  
+  .desktop .overlap-group-2 {
+    position: absolute;
+    width: 149px;
+    height: 114px;
+    top: 9px;
+    left: 95px;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--titles-and-sub-titulazo2-font-family);
+    font-weight: var(--titles-and-sub-titulazo2-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo2-font-size);
+    letter-spacing: var(--titles-and-sub-titulazo2-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo2-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulazo2-font-style);
+  }
+  
+  .desktop .text-wrapper-9 {
+    position: absolute;
+    top: 49px;
+    left: 0;
+    font-family: var(--titles-and-sub-titulazo2-font-family);
+    font-weight: var(--titles-and-sub-titulazo2-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo2-font-size);
+    letter-spacing: var(--titles-and-sub-titulazo2-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo2-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulazo2-font-style);
+  }
+  
+  .desktop .overlap-3 {
+    position: absolute;
+    width: 536px;
+    height: 392px;
+    top: 187px;
+    left: 47px;
+  }
+  
+  .desktop .image {
+    position: absolute;
+    width: 405px;
+    height: 161px;
+    top: 0;
+    left: 25px;
+    object-fit: cover;
+  }
+  
+  .desktop .brand {
+    position: absolute;
+    width: 536px;
+    height: 306px;
+    top: 86px;
+    left: 0;
+  }
+  
+  .desktop .capa-6 {
+    top: 2630px;
+    left: 92px;
+    position: absolute;
+    width: 1097px;
+    height: 252px;
+  }
+  
+  .desktop .card-persepolis {
+    position: absolute;
+    width: 1215px;
+    height: 874px;
+    top: 882px;
+    left: 33px;
+  }
+  
+  .desktop .overlap-group-3 {
+    position: relative;
+    height: 874px;
+  }
+  
+  .desktop .overlap-group-wrapper {
+    position: absolute;
+    width: 1215px;
+    height: 874px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .clip-path-group {
+    position: absolute;
+    width: 1206px;
+    height: 865px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .desktop .vector {
+    position: absolute;
+    width: 1206px;
+    height: 844px;
+    top: 5px;
+    left: 5px;
+    mix-blend-mode: multiply;
+  }
+  
+  .desktop .description {
+    position: absolute;
+    width: 1160px;
+    height: 295px;
+    top: 532px;
+    left: 35px;
+  }
+  
+  .desktop .frame-5 {
+    display: flex;
+    flex-direction: column;
+    width: 634px;
+    align-items: flex-start;
+    position: absolute;
+    top: 132px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SS Nickson One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffc700;
+    font-size: 46px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-size: 116px;
+    font-family: "SS Nickson One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .element-DIRECTORES {
+    position: absolute;
+    top: 47px;
+    left: 929px;
+    font-family: var(--body-bodydesk1-font-family);
+    font-weight: var(--body-bodydesk1-font-weight);
+    color: var(--x-100);
+    font-size: var(--body-bodydesk1-font-size);
+    text-align: right;
+    letter-spacing: var(--body-bodydesk1-letter-spacing);
+    line-height: var(--body-bodydesk1-line-height);
+    font-style: var(--body-bodydesk1-font-style);
+  }
+  
+  .desktop .martes-de-junio {
+    position: absolute;
+    width: 229px;
+    top: 202px;
+    left: 927px;
+    font-family: var(--body-bodydesk1-font-family);
+    font-weight: var(--body-bodydesk1-font-weight);
+    color: var(--x-100);
+    font-size: var(--body-bodydesk1-font-size);
+    letter-spacing: var(--body-bodydesk1-letter-spacing);
+    line-height: var(--body-bodydesk1-line-height);
+    font-style: var(--body-bodydesk1-font-style);
+  }
+  
+  .desktop .icons {
+    position: absolute;
+    width: 84px;
+    height: 28px;
+    top: 0;
+    left: 1060px;
+  }
+  
+  .desktop .div-wrapper {
+    position: absolute;
+    width: 39px;
+    height: 28px;
+    top: 0;
+    left: 45px;
+  }
+  
+  .desktop .overlap-group-4 {
+    position: relative;
+    height: 28px;
+  }
+  
+  .desktop .vector-2 {
+    position: absolute;
+    width: 39px;
+    height: 14px;
+    top: 7px;
+    left: 0;
+  }
+  
+  .desktop .group-4 {
+    position: absolute;
+    width: 39px;
+    height: 28px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .card-duration {
+    position: absolute;
+    width: 173px;
+    height: 40px;
+    top: 614px;
+    left: 35px;
+    background-image: url(./img/vector-11.svg);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .text-wrapper-12 {
+    top: 1px;
+    left: 10px;
+    font-family: var(--body-bodydesk1-font-family);
+    font-weight: var(--body-bodydesk1-font-weight);
+    font-size: var(--body-bodydesk1-font-size);
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: var(--body-bodydesk1-letter-spacing);
+    line-height: var(--body-bodydesk1-line-height);
+    font-style: var(--body-bodydesk1-font-style);
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: absolute;
+    top: 730px;
+    left: 397px;
+    font-family: var(--titles-and-sub-megatitulazo-font-family);
+    font-weight: var(--titles-and-sub-megatitulazo-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-megatitulazo-font-size);
+    text-align: justify;
+    letter-spacing: var(--titles-and-sub-megatitulazo-letter-spacing);
+    line-height: var(--titles-and-sub-megatitulazo-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-megatitulazo-font-style);
+  }
+  
+  .desktop .overlap-4 {
+    position: absolute;
+    width: 1279px;
+    height: 238px;
+    top: 3629px;
+    left: 1px;
+    background-image: url(./img/vector-3.svg);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .frame-6 {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 139px;
+    position: absolute;
+    top: 45px;
+    left: 460px;
+  }
+  
+  .desktop .organiza-mauricio {
+    position: relative;
+    width: 342px;
+    height: 159px;
+    margin-top: -1.00px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #262626;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .group-5 {
+    position: absolute;
+    width: 308px;
+    height: 164px;
+    top: -2px;
+    left: -374px;
+  }
+  
+  .desktop .vector-3 {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    top: 111px;
+    left: 6px;
+  }
+  
+  .desktop .vector-4 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 112px;
+    left: 113px;
+  }
+  
+  .desktop .vector-5 {
+    position: absolute;
+    width: 53px;
+    height: 43px;
+    top: 117px;
+    left: 221px;
+  }
+  
+  .desktop .text-wrapper-14 {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #262626;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .whatsapp {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #262626;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .footer-logo {
+    position: absolute;
+    width: 168px;
+    height: 65px;
+    top: 141px;
+    left: 1024px;
+  }
+  
+  .desktop .card-incerto {
+    position: absolute;
+    width: 305px;
+    height: 220px;
+    top: 2405px;
+    left: 86px;
+  }
+  
+  .desktop .overlap-group-5 {
+    position: relative;
+    width: 299px;
+    height: 220px;
+  }
+  
+  .desktop .capa-wrapper {
+    position: absolute;
+    width: 299px;
+    height: 220px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .capa-7 {
+    height: 220px;
+  }
+  
+  .desktop .clip-path-group-2 {
+    width: 298px;
+    height: 219px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .desktop .group-6 {
+    position: absolute;
+    width: 298px;
+    height: 209px;
+    top: 1px;
+    left: 1px;
+    mix-blend-mode: multiply;
+  }
+  
+  .desktop .vector-6 {
+    position: absolute;
+    width: 48px;
+    height: 12px;
+    top: 183px;
+    left: 250px;
+  }
+  
+  .desktop .text-wrapper-15 {
+    position: absolute;
+    width: 122px;
+    top: 158px;
+    left: 12px;
+    font-family: var(--titles-and-sub-titulazo1-5-font-family);
+    font-weight: var(--titles-and-sub-titulazo1-5-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo1-5-font-size);
+    letter-spacing: var(--titles-and-sub-titulazo1-5-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo1-5-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulazo1-5-font-style);
+  }
+  
+  .desktop .text-wrapper-16 {
+    position: absolute;
+    top: 146px;
+    left: 12px;
+    font-family: var(--titles-and-sub-titulito-font-family);
+    font-weight: var(--titles-and-sub-titulito-font-weight);
+    color: #ffc700;
+    font-size: var(--titles-and-sub-titulito-font-size);
+    letter-spacing: var(--titles-and-sub-titulito-letter-spacing);
+    line-height: var(--titles-and-sub-titulito-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulito-font-style);
+  }
+  
+  .desktop .vector-7 {
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    top: 181px;
+    left: 226px;
+  }
+  
+  .desktop .text-wrapper-17 {
+    position: absolute;
+    top: 182px;
+    left: 242px;
+    font-family: var(--body-texto-corrido-font-family);
+    font-weight: var(--body-texto-corrido-font-weight);
+    color: #ffffff;
+    font-size: var(--body-texto-corrido-font-size);
+    letter-spacing: var(--body-texto-corrido-letter-spacing);
+    line-height: var(--body-texto-corrido-line-height);
+    font-style: var(--body-texto-corrido-font-style);
+  }
+  
+  .desktop .card-persepolis-mini {
+    position: absolute;
+    width: 304px;
+    height: 220px;
+    top: 2405px;
+    left: 486px;
+  }
+  
+  .desktop .overlap-5 {
+    position: relative;
+    width: 298px;
+    height: 220px;
+  }
+  
+  .desktop .capa-8 {
+    position: absolute;
+    width: 298px;
+    height: 220px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .overlap-group-6 {
+    position: relative;
+    height: 220px;
+  }
+  
+  .desktop .clip-path-group-3 {
+    width: 296px;
+    height: 219px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .desktop .group-7 {
+    position: absolute;
+    width: 296px;
+    height: 209px;
+    top: 1px;
+    left: 1px;
+    mix-blend-mode: multiply;
+  }
+  
+  .desktop .vector-8 {
+    position: absolute;
+    width: 53px;
+    height: 12px;
+    top: 183px;
+    left: 244px;
+  }
+  
+  .desktop .capa-9 {
+    position: absolute;
+    width: 31px;
+    height: 10px;
+    top: 8px;
+    left: 260px;
+  }
+  
+  .desktop .group-8 {
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    top: 0;
+    left: 17px;
+  }
+  
+  .desktop .overlap-group-7 {
+    position: relative;
+    height: 10px;
+  }
+  
+  .desktop .vector-9 {
+    position: absolute;
+    width: 13px;
+    height: 5px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .desktop .group-9 {
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .group-10 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-18 {
+    position: absolute;
+    width: 169px;
+    top: 159px;
+    left: 13px;
+    font-size: var(--titles-and-sub-titulazo1-5-font-size);
+    font-family: var(--titles-and-sub-titulazo1-5-font-family);
+    font-weight: var(--titles-and-sub-titulazo1-5-font-weight);
+    color: #ffffff;
+    letter-spacing: var(--titles-and-sub-titulazo1-5-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo1-5-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulazo1-5-font-style);
+  }
+  
+  .desktop .text-wrapper-19 {
+    top: 147px;
+    left: 13px;
+    position: absolute;
+    font-family: var(--titles-and-sub-titulito-font-family);
+    font-weight: var(--titles-and-sub-titulito-font-weight);
+    color: #ffc700;
+    font-size: var(--titles-and-sub-titulito-font-size);
+    letter-spacing: var(--titles-and-sub-titulito-letter-spacing);
+    line-height: var(--titles-and-sub-titulito-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulito-font-style);
+  }
+  
+  .desktop .vector-10 {
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    top: 180px;
+    left: 224px;
+  }
+  
+  .desktop .text-wrapper-20 {
+    top: 181px;
+    left: 232px;
+    font-family: var(--body-texto-corrido-font-family);
+    font-weight: var(--body-texto-corrido-font-weight);
+    font-size: var(--body-texto-corrido-font-size);
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: var(--body-texto-corrido-letter-spacing);
+    line-height: var(--body-texto-corrido-line-height);
+    font-style: var(--body-texto-corrido-font-style);
+  }
+  
+  .desktop .card-animacin {
+    position: absolute;
+    width: 304px;
+    height: 219px;
+    top: 2405px;
+    left: 885px;
+  }
+  
+  .desktop .overlap-group-8 {
+    position: relative;
+    width: 296px;
+    height: 219px;
+  }
+  
+  .desktop .group-11 {
+    position: absolute;
+    width: 296px;
+    height: 219px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .capa-10 {
+    height: 219px;
+  }
+  
+  .desktop .clip-path-group-4 {
+    width: 295px;
+    height: 218px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .desktop .group-12 {
+    position: absolute;
+    width: 295px;
+    height: 208px;
+    top: 1px;
+    left: 1px;
+    mix-blend-mode: multiply;
+  }
+  
+  .desktop .text-wrapper-21 {
+    position: absolute;
+    width: 169px;
+    top: 139px;
+    left: 15px;
+    font-family: var(--titles-and-sub-titulazo1-5-font-family);
+    font-weight: var(--titles-and-sub-titulazo1-5-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-titulazo1-5-font-size);
+    letter-spacing: var(--titles-and-sub-titulazo1-5-letter-spacing);
+    line-height: var(--titles-and-sub-titulazo1-5-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulazo1-5-font-style);
+  }
+  
+  .desktop .text-wrapper-22 {
+    position: absolute;
+    width: 126px;
+    top: 179px;
+    left: 15px;
+    font-family: var(--titles-and-sub-subtitulazo-font-family);
+    font-weight: var(--titles-and-sub-subtitulazo-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-and-sub-subtitulazo-font-size);
+    letter-spacing: var(--titles-and-sub-subtitulazo-letter-spacing);
+    line-height: var(--titles-and-sub-subtitulazo-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-subtitulazo-font-style);
+  }
+  
+  .desktop .text-wrapper-23 {
+    top: 125px;
+    left: 15px;
+    position: absolute;
+    font-family: var(--titles-and-sub-titulito-font-family);
+    font-weight: var(--titles-and-sub-titulito-font-weight);
+    color: #ffc700;
+    font-size: var(--titles-and-sub-titulito-font-size);
+    letter-spacing: var(--titles-and-sub-titulito-letter-spacing);
+    line-height: var(--titles-and-sub-titulito-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-and-sub-titulito-font-style);
+  }
+  
+  .desktop .vector-11 {
+    position: absolute;
+    width: 87px;
+    height: 17px;
+    top: 180px;
+    left: 208px;
+  }
+  
+  .desktop .text-wrapper-24 {
+    top: 181px;
+    left: 213px;
+    font-family: var(--body-texto-corrido-font-family);
+    font-weight: var(--body-texto-corrido-font-weight);
+    font-size: var(--body-texto-corrido-font-size);
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: var(--body-texto-corrido-letter-spacing);
+    line-height: var(--body-texto-corrido-line-height);
+    font-style: var(--body-texto-corrido-font-style);
+  }
+  
+  .desktop .suscribe-bottom {
+    position: absolute;
+    width: 221px;
+    height: 61px;
+    top: 588px;
+    left: 760px;
+  }
+  
+  .desktop .suscribe-bottom-2 {
+    position: relative;
+    height: 61px;
+    background-color: var(--primary-yellow);
+    border-radius: 12.84px;
+  }
+  
+  .desktop .text-wrapper-25 {
+    width: 180px;
+    top: 6px;
+    left: 21px;
+    font-size: 52.8px;
+    position: absolute;
+    font-family: "SS Nickson One-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-green);
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .header {
+    position: absolute;
+    width: 1286px;
+    height: 101px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .desktop .overlap-6 {
+    position: relative;
+    width: 1280px;
+    height: 101px;
+    background-image: url(./img/rectangle-1.svg);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .text-wrapper-26 {
+    position: absolute;
+    width: 109px;
+    top: 42px;
+    left: 792px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-27 {
+    position: absolute;
+    width: 65px;
+    top: 42px;
+    left: 939px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-28 {
+    position: absolute;
+    width: 171px;
+    top: 28px;
+    left: 39px;
+    font-family: "SS Nickson One-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-yellow);
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .component-2 {
+    position: absolute;
+    width: 169px;
+    height: 51px;
+    top: 25px;
+    left: 1046px;
+    background-color: var(--primary-yellow);
+    border-radius: 9.82px;
+  }
+  
+  .desktop .text-wrapper-29 {
+    width: 138px;
+    top: 5px;
+    left: 16px;
+    font-size: 40.4px;
+    position: absolute;
+    font-family: "SS Nickson One-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-green);
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
