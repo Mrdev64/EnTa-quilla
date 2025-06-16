@@ -306,3 +306,16 @@ text-decoration: none;
   height: 101.242px;
   flex-shrink: 0;
 }
+
+
+
+
+
+.textdescription-cardpersepolis {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+  margin-top: 20px;
+}
