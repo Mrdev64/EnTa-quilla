@@ -6,15 +6,31 @@
   --white: #FFFFFF;
 }
 
+body{
+  margin: 0;
+}
+
 .nav {
   display: flex;
   background-color: var(--black);
-  width: 1280px;
+  width: 100%;
   height: 101.242px;
   flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
+
+.nav__brand {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+}
+
 .nav__brand{
-color: var(--Primary-yellow, #FFC700);
+color: var(--yellow);
 font-family: "SS Nickson One";
 font-size: 48px;
 font-style: normal;
@@ -26,12 +42,14 @@ text-decoration: none;
 
 }
 .nav__list {
+  width: 100%;
+  height: 40px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
 }
 .nav__services {
   display: flex;
@@ -61,22 +79,22 @@ text-decoration: none;
   font-weight: bold;
 }
 .nav__link3 {
+  height: 100%;
   text-decoration: none;
-  color: white;
+  background: var(--yellow);
+  color: var(--green);
   font-weight: bold;
+  font-size: 40px;
+  border-radius: 10px;
 }
 
 .nav__link:hover {
   color: #ddd;
 }
 
-.nav__brand {
-  font-size: 1.5em;
-  color: white;
-  font-weight: bold;
-}
 
 .nav__right-section {
+  height: 100%;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -95,9 +113,15 @@ text-decoration: none;
 .tercera__edition {
   left: 30px;
   rotate: -6.702deg;
-  position: absolute;
+  
   text-align: center;
   margin-top: 20px;
+}
+
+.hero{
+  display: flex;
+  height: 80vh;
+  margin-top: 101.242px;
 }
 
 .hero__title {
@@ -106,39 +130,46 @@ text-decoration: none;
   height: 234.406px;
   transform: rotate(-6.702deg);
   flex-shrink: 0;
-  position: absolute;
-  left: 40px;
-  top: 220px;
+
 }
 
 .bg__hero{
   display: flex;
   width: 100%;
   height: 100vh;
-  }
-.description__event {
   position: absolute;
-  right: 40px;
-  top: 10px;
+  z-index: 0;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+
+.description__event {
+  width: 60%;
   font-family: "SS Nickson One";
   font-size:  80px;
   color: var(--white);
-
+  z-index: 1000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .counter {
   color: #FFF;
-
-font-family: "SS Nickson One";
-font-size: 146.91px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: "SS Nickson One";
+  font-size: 146.91px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .silla {
-  position: absolute;
-  width: 100px;
-  left: 40px;
-  top: 400px;
+ z-index: 1000000;
 
 }
 .nav__subscribe-btn {
